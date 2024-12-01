@@ -1,0 +1,44 @@
+*{
+    font-family: fantasy; 
+}
+body{
+    font-size: 24px;
+    border :5px solid brown;
+    width: 50%;
+}
+#first>p{
+    color:red;
+    border: 5px dashed green;
+    width: 50%;
+}
+.madarchod{
+    border: 20px solid red;
+    padding: 20px;
+    margin: 12px 10px 34px 19px;
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    display: grid;
+}
+.highlight{
+    color:chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#randi{
+    border: 2px dashed rgb(46, 5, 85);
+}
+h1{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-family: sans-serif;
+    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px red, 5px 5px 1px black;
+
+}

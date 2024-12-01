@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: #000;
+    color:#fff;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.banner .content .title{
+    font-family: cursive;
+    font-size: 6em;
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(pg.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    
+  -webkit-mask-image: url('animate.gif');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+
+}
